@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(255, 139, 97)
+}
+
+.star {
+    text-decoration: blink;
+    font-family: webdings;
+    /* font-family: glyph; */
+    font-size: 35px;
+    font-weight: medium;
+    font-style: oblique;
+    font-stretch: condensed;
+    color: yellow;
+}
+
+.blinking {
+animation: blinkingText 1.9s infinite;
+}
+@keyframes blinkingText {
+    0% { color: rgb(139, 63, 8); }
+    49% { color: transparent; }
+    50% { color: rgb(139, 63, 8); }
+    99% { color: transparent; }
+    100% { color: rgb(139, 63, 8); }
+}
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 36px;
+    font-weight: Medium;
+    font-style: Oblique;
+    font-stretch: Condensed;
+    color: rgb(139, 63, 8)
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 26px;
+    font-weight: Medium;
+    font-style: Light;
+    font-stretch: Condensed;
+    color: rgb(139, 63, 8)
+}
+
+.orders {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 26px;
+    font-weight: Medium;
+    font-style: Light;
+    font-stretch: Condensed;
+    color: rgb(139, 63, 8)
+}
+.sinin {
+    font-family: Monotype Corsiva;
+    font-size: 20px;
+    font-weight: Light;
+    font-style: Italic;
+    font-stretch: Regular;
+}
